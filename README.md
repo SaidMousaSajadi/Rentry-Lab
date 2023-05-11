@@ -42,4 +42,4 @@ RentryLab.myrentry().SendToRentry("https://rentry.co/NewPage011",'password',os.p
 ```
 
 
-[Do you want to see how to use it visually?](https://rentry.co)
+[Do you want to see how to use it visually????](https://rentry.co)
