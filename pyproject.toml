@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rentrylab"
+version = "0.0.4"
+authors = [
+  { name="Seyed Mousa Sajadi(WinCento)", email="sajadimousa@gmail.com" },
+]
+description = "For easy transfer of codes to rentry.co"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yasharsajadi/Rentry-Lab"
