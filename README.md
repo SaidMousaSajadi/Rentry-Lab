@@ -28,12 +28,15 @@ pip3 install -i https://test.pypi.org/simple/ rentrylab
 
 
 ## Usage
-**Get File:**
+**To Get File:**
+
 To get a  code file from [rentry.co](https://pypi.org/project/rentry/), just type these two lines of code at the beginning of your file("Receive.py") and run it, your file will be updated.
 ```
 import os ; from rentrylab import RentryLab
 RentryLab.myrentry().GetFromRentry("https://rentry.co/NewPage011",os.path.join(os.path.dirname(__file__)),"Receive","python",".py")
 ```
+
+**To Send File:**
 
 To send a code file to [rentry.co](https://pypi.org/project/rentry/), just add these two lines to the end of your file("Send.py"), and run it, your file will be uploaded.
 Be careful, RentryLab will not upload your last 3 lines containing the following commands:
