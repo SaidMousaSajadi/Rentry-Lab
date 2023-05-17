@@ -50,7 +50,7 @@ RentryLab.myrentry().SendToRentry("https://rentry.co/NewPage011",'password',os.p
 It will be added in the next version.
 
 
-Do you want to see how to use it visually???
+**Do you want to see how to use it visually???**
 
 [windows](https://youtu.be/re4J3bZkKAI)
 
