@@ -43,6 +43,9 @@ RentryLab.myrentry().SendToRentry("https://rentry.co/NewPage011",'password',os.p
 
 
 Do you want to see how to use it visually???
+
 [windows](https://youtu.be/re4J3bZkKAI)
+
 [Linux](https://youtu.be/z5igWHFaPVE)
+
 [PythonAnyWhere](https://youtu.be/5iGLaaf8baU)
