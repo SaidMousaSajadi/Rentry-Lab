@@ -28,6 +28,7 @@ pip3 install -i https://test.pypi.org/simple/ rentrylab
 
 
 ## Usage
+**Get File:**
 To get a  code file from [rentry.co](https://pypi.org/project/rentry/), just type these two lines of code at the beginning of your file("Receive.py") and run it, your file will be updated.
 ```
 import os ; from rentrylab import RentryLab
