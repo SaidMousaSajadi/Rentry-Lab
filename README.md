@@ -4,8 +4,7 @@ This is a project related to [Rentry.co](https://rentry.co), which makes the pro
 ## Instruction
 
 Windows: 
-1. Install Git
-[Git Web Page](https://git-scm.com/downloads)
+1. Install [Git](https://git-scm.com/downloads)
 Then add the ./git/bin path to environment paths.
 2. Install [Rentry Project](https://pypi.org/project/rentry/)
 ```
