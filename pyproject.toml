@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rentrylab"
-version = "0.0.4"
+version = "1.0.0"
 authors = [
   { name="Seyed Mousa Sajadi(WinCento)", email="sajadimousa@gmail.com" },
 ]
