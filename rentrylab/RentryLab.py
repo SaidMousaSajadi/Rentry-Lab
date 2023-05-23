@@ -74,13 +74,14 @@ class myrentry() :
 
     def CreateRentry(self,LinkName,PW,Path,StartText='This page was created with rentrylab.'):
         file = open(Path + self.Sep + "Create.sh",'w')
-        file.write("rentry new -p " + PW + " -u https://rentry.co/" + LinkName + " " + '"' + StartText + '"')
+        file.write("rentry new -p " + PW + " -u " + LinkName + " " + '"' + StartText + '"')
         file.close()
         
         try :
             os.system("bash " + Path + self.Sep + "Create.sh")
-        except :
-            print("ٔError: Not Created")
+            pass
+        except Exception as e:
+            print(e)
 
         os.remove(Path + self.Sep + "Create.sh") 
     
@@ -353,4 +354,3 @@ class myrentry() :
 
 
 ################### 
-
